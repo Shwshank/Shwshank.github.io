@@ -1,0 +1,66 @@
+body{
+  height: 100vh;
+  body: 100vw;
+  border: 1rem solid white;
+}
+
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgb(235, 228, 70);
+	border-radius: 10px;
+	background-color: rgb(235, 228, 70);
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color:rgb(235, 228, 70);
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 12px;
+	-webkit-box-shadow: inset 0 0 6px rgb(235, 228, 70);
+	background-color: rgb(235, 228, 70);
+  cursor: -webkit-grab  !important; cursor: grab !important ;
+}
+
+
+.js{
+  margin-top: 55vh;
+  margin-left: 77vw;
+  font-size: 10rem;
+  color: #4a4a4a;
+  position: fixed;
+}
+.div1{
+  float:left;
+  height: 100%;
+  width: 100%;
+  border: 1.5rem solid #4a4a4a;
+}
+.div11{
+  float: left;
+  height:100%;
+  width: 80%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: rgb(235, 228, 70);
+}
+.div12{
+  float:right;
+  height:100%;
+  width: 20%;
+  background-color: rgb(235, 228, 70);
+}
+.box1{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(235, 228, 70);
+}
+
+.box2{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
