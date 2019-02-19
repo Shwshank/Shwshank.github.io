@@ -2,6 +2,7 @@ body{
   height: 100vh;
   body: 100vw;
   border: 1rem solid white;
+  display: none;
 }
 
 #style-1::-webkit-scrollbar-track
@@ -89,26 +90,27 @@ body{
   font-size: 1.3rem;
 }
 .typewriter p {
+  width: 40vw;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: .15em solid #4a4a4a; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation:
-    typing 3.5s steps(40, end),
+    typing 4.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 40vw }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color: #4a4a4a; }
 }
 .box2{
   height: 100%;
