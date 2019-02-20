@@ -61,11 +61,6 @@ body{
   width: 20%;
   background-color: rgb(235, 228, 70);
 }
-.box1{
-  height: 100%;
-  width: 100%;
-  background-color: rgb(235, 228, 70);
-}
 .padding-top-15{
   padding-top: 15%;
   text-align: center;
@@ -90,27 +85,32 @@ body{
   font-size: 1.3rem;
 }
 .typewriter p {
-  width: 40vw;
+  width: 35vw;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #4a4a4a; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation:
-    typing 4.5s steps(40, end),
+    typing 4.5s steps(18, end),
     blink-caret .75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 40vw }
+  to { width: 35vw }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #4a4a4a; }
+}
+.box1{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(235, 228, 70);
 }
 .box2{
   height: 100%;
