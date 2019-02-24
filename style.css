@@ -399,7 +399,8 @@ body{
   text-align: left !important;
 }
 .button1{
-  background-color: orange !important
+  background-color: orange !important;
+  background-image: linear-gradient(to right, orange , rgb(235, 228, 70)) !important; /* Standard syntax
 }
 
 /* Bootstrap design changes ends here */
