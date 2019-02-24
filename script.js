@@ -1,18 +1,18 @@
 $(document).ready(function(){
   $("body").show();
 
-  $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $("#style-1").animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-
+  // $("a").on('click', function(event) {
+  //   if (this.hash !== "") {
+  //     event.preventDefault();
+  //     var hash = this.hash;
+  //     $("#style-1").animate({
+  //       scrollTop: $(hash).offset().top
+  //     }, 800, function(){
+  //       window.location.hash = hash;
+  //     });
+  //   } // End if
+  // });
+  
   AOS.init();
 
   var Expand = (function() {
